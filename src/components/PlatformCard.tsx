@@ -25,8 +25,8 @@ const PlatformCard = ({ platform, onClick }: PlatformCardProps) => {
                     target.src = platform.logoUrl;
                     target.dataset.fallback = '1';
                   } else {
-                    target.style.display = 'none';
-                    target.nextElementSibling?.classList.remove('hidden');
+                  target.style.display = 'none';
+                  target.nextElementSibling?.classList.remove('hidden');
                   }
                 }}
               />
