@@ -9,6 +9,7 @@ import Login from './pages/Login'
 import Member from './pages/Member'
 import Tools from './pages/Tools'
 import Learning from './pages/Learning'
+import AccountPlan from './pages/AccountPlan'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/member" element={<Member />} />
             <Route path="/tools" element={<Tools />} />
             <Route path="/learning" element={<Learning />} />
+            <Route path="/account-plan" element={<AccountPlan />} />
           </Routes>
         </main>
       </div>

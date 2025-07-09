@@ -7,6 +7,7 @@ const Header = () => {
     { path: '/', label: '平台介绍', icon: '🌐' },
     { path: '/blog', label: '博客', icon: '📝' },
     { path: '/tools', label: '工具中心', icon: '🛠️' },
+    { path: '/account-plan', label: '账号规划', icon: '🗂️' },
     { path: '/learning', label: '学习中心', icon: '📚' },
     { path: '/community', label: '交流频道', icon: '💬' },
     { path: '/about', label: '关于我们', icon: '👤' }
