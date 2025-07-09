@@ -52,13 +52,18 @@ const PlatformDetail = ({ platform, onClose }: PlatformDetailProps) => {
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 flex items-center justify-center bg-white rounded-xl border-2 border-gray-200 shadow-sm">
                 <img 
-                  src={platform.logoUrl} 
+                  src={platform.logo} 
                   alt={platform.name}
                   className="w-10 h-10 object-contain"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
-                    target.nextElementSibling?.classList.remove('hidden');
+                    if (platform.logoUrl && target.src !== window.location.origin + platform.logoUrl && !target.dataset.fallback) {
+                      target.src = platform.logoUrl;
+                      target.dataset.fallback = '1';
+                    } else {
+                      target.style.display = 'none';
+                      target.nextElementSibling?.classList.remove('hidden');
+                    }
                   }}
                 />
                 <span className="text-2xl font-bold text-gray-400 hidden">{platform.name.charAt(0)}</span>

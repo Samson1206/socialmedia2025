@@ -16,13 +16,18 @@ const PlatformCard = ({ platform, onClick }: PlatformCardProps) => {
           <div className="flex items-center space-x-3">
             <div className="w-14 h-14 flex items-center justify-center bg-white rounded-xl overflow-hidden border-2 border-gray-200 shadow-sm group-hover:border-blue-300 transition-colors">
               <img 
-                src={platform.logoUrl} 
+                src={platform.logo}
                 alt={platform.name}
                 className="w-12 h-12 object-contain group-hover:scale-110 transition-transform duration-300"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.style.display = 'none';
-                  target.nextElementSibling?.classList.remove('hidden');
+                  if (platform.logoUrl && target.src !== window.location.origin + platform.logoUrl && !target.dataset.fallback) {
+                    target.src = platform.logoUrl;
+                    target.dataset.fallback = '1';
+                  } else {
+                    target.style.display = 'none';
+                    target.nextElementSibling?.classList.remove('hidden');
+                  }
                 }}
               />
               <span className="text-2xl font-bold text-gray-400 hidden">{platform.name.charAt(0)}</span>

@@ -113,9 +113,9 @@ export const platforms: Platform[] = [
     ]
   },
   {
-    id: 'twitter',
+    id: 'x',
     name: 'X (Twitter)',
-    logo: '/logos/twitter.svg',
+    logo: '/logos/x.png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/X_logo_2023.svg',
     officialUrl: 'https://twitter.com',
     description: '以实时信息和话题为主，适合品牌互动和事件营销。',
@@ -246,7 +246,7 @@ export const platforms: Platform[] = [
   {
     id: 'snapchat',
     name: 'Snapchat',
-    logo: '/logos/snapchat.svg',
+    logo: '/logos/snapchat.png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/c4/Snapchat_logo.svg',
     officialUrl: 'https://www.snapchat.com',
     description: '年轻用户为主的即时通讯和短视频平台，适合年轻品牌营销。',
@@ -282,7 +282,7 @@ export const platforms: Platform[] = [
   {
     id: 'pinterest',
     name: 'Pinterest',
-    logo: '/logos/pinterest.svg',
+    logo: '/logos/Pintrest.png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo_2017.svg',
     officialUrl: 'https://www.pinterest.com',
     description: '图片发现和收藏平台，适合生活方式、时尚、家居类产品营销。',
@@ -318,7 +318,7 @@ export const platforms: Platform[] = [
   {
     id: 'reddit',
     name: 'Reddit',
-    logo: '/logos/reddit.svg',
+    logo: '/logos/reddit.png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Reddit_logo_new.svg',
     officialUrl: 'https://www.reddit.com',
     description: '社区讨论平台，适合内容营销、社区建设、口碑传播。',
@@ -557,7 +557,7 @@ export const platforms: Platform[] = [
   {
     id: 'tiktok',
     name: 'TikTok',
-    logo: '/logos/tiktok.svg',
+    logo: '/logos/tiktok .png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo.svg',
     officialUrl: 'https://www.tiktok.com',
     description: '全球短视频平台，适合年轻品牌、创意营销和病毒式传播。',
@@ -644,7 +644,7 @@ export const platforms: Platform[] = [
   {
     id: 'tumblr',
     name: 'Tumblr',
-    logo: '/logos/tumblr.png',
+    logo: '/logos/Tumblr.png',
     logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tumblr_logo.svg/1200px-Tumblr_logo.svg.png',
     officialUrl: 'https://www.tumblr.com',
     description: '博客和内容分享平台，适合创意品牌和亚文化营销。',
