@@ -1,6 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import PlatformList from './pages/PlatformList'
+import EcommercePlatformList from './pages/EcommercePlatformList'
+import SearchEngineList from './pages/SearchEngineList'
 import Blog from './pages/Blog'
 import About from './pages/About'
 import Community from './pages/Community'
@@ -19,6 +21,8 @@ function App() {
         <main className="py-8">
           <Routes>
             <Route path="/" element={<PlatformList />} />
+            <Route path="/ecommerce-platforms" element={<EcommercePlatformList />} />
+            <Route path="/search-engines" element={<SearchEngineList />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/about" element={<About />} />
             <Route path="/community" element={<Community />} />

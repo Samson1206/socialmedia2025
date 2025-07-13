@@ -4,7 +4,9 @@ const Header = () => {
   const location = useLocation()
 
   const navItems = [
-    { path: '/', label: '平台介绍', icon: '🌐' },
+    { path: '/', label: '社媒平台', icon: '🌐' },
+    { path: '/ecommerce-platforms', label: '电商平台', icon: '🛒' },
+    { path: '/search-engines', label: '搜索引擎', icon: '🔍' },
     { path: '/blog', label: '博客', icon: '📝' },
     { path: '/tools', label: '工具中心', icon: '🛠️' },
     { path: '/account-plan', label: '账号规划', icon: '🗂️' },
