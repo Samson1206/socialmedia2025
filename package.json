@@ -1,7 +1,7 @@
 {
-  "name": "social-media-platform-guide",
+  "name": "digital-trade-platform-guide",
   "version": "1.0.0",
-  "description": "全球社交媒体平台选择指南 - 帮助外贸企业选择合适的社交媒体营销平台",
+  "description": "数字外贸平台指南 - 覆盖社交媒体、电商、搜索引擎等主流数字平台信息",
   "main": "index.js",
   "scripts": {
     "dev": "vite",

@@ -23,8 +23,8 @@ const Header = () => {
             <span className="text-white text-xl font-bold">🌐</span>
           </div>
           <div>
-            <h1 className="font-bold text-xl text-gray-900">全球社交媒体平台指南</h1>
-            <p className="text-sm text-gray-500">为外贸业务选择最佳营销平台</p>
+            <h1 className="font-bold text-xl text-gray-900">数字外贸平台指南</h1>
+            <p className="text-sm text-gray-500">Digital Trade Platform Guide</p>
           </div>
         </div>
         
