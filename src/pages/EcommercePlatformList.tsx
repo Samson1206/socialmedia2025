@@ -172,11 +172,11 @@ const EcommercePlatformList: React.FC = () => {
                 <span className="text-white text-2xl">🛒</span>
               </div>
               <h1 className="text-4xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-                数字外贸平台指南
+                全球跨境电商平台指南
               </h1>
             </div>
             <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              覆盖全球主流社交媒体、电商、搜索引擎等数字平台，助力外贸企业一站式了解与对比各类数字渠道。
+              探索全球主流的B2B和B2C跨境电商平台，了解各平台的特色、费用结构、入驻要求等信息，为您的跨境电商业务选择最适合的平台。
             </p>
           </div>
         </div>

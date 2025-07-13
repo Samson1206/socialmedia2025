@@ -197,11 +197,12 @@ const PlatformList = () => {
             <span className="text-white text-xl">🌍</span>
           </div>
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            数字外贸平台指南
+            全球社交媒体平台指南
           </h1>
         </div>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          了解全球主流社交媒体、电商、搜索引擎等数字平台的详细信息，助力外贸企业高效选择与布局数字渠道。
+          了解全球主流社交媒体平台的详细信息，包括用户属性、市场覆盖、营销特点等，
+          帮助您为外贸业务选择合适的社交媒体营销平台。
         </p>
       </div>
 
